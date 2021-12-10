@@ -21,7 +21,7 @@ export default function MemoDetailScreen() {
           random stuff and such
         </Text>
       </ScrollView>
-      <CircleButton style={{ top: 170, bottom: 'auto', elevation: 4 }} name="edit" />
+      <CircleButton style={{ top: 170, bottom: 'auto', elevation: 4 }} name="pencil" />
     </View>
   );
 }
