@@ -1,6 +1,7 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import { Feather } from '@expo/vector-icons';
 
 export default function Memolist() {
   return (
@@ -11,7 +12,7 @@ export default function Memolist() {
           <Text style={styles.memoListItemDate}>2020年12月03日 10:00</Text>
         </View>
         <View>
-          <Text>✕</Text>
+          <Feather name="x" size={20} color="#939292" />
         </View>
       </View>
 
@@ -21,7 +22,7 @@ export default function Memolist() {
           <Text style={styles.memoListItemDate}>2020年12月03日 10:00</Text>
         </View>
         <View>
-          <Text>✕</Text>
+          <Feather name="x" size={20} color="#939292" />
         </View>
       </View>
 
@@ -31,7 +32,7 @@ export default function Memolist() {
           <Text style={styles.memoListItemDate}>2020年12月03日 10:00</Text>
         </View>
         <View>
-          <Text>✕</Text>
+          <Feather name="x" size={20} color="#939292" />
         </View>
       </View>
     </View>
@@ -44,7 +45,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     paddingVertical: 18,
-    paddingHorizontal: 22,
+    paddingHorizontal: 20,
     alignItems: 'center',
     borderBottomWidth: 0.85,
     borderColor: 'rgba(0, 0, 0, 0.22)',

@@ -1,6 +1,8 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
-import { View, ScrollView, Text, StyleSheet } from 'react-native';
+import {
+  View, ScrollView, Text, StyleSheet,
+} from 'react-native';
 
 import AppBar from '../components/AppBar';
 import CircleButton from '../components/CircleButton';
@@ -19,7 +21,7 @@ export default function MemoDetailScreen() {
           random stuff and such
         </Text>
       </ScrollView>
-      <CircleButton style={{ top: 170, bottom: 'auto', elevation: 4 }}>+</CircleButton>
+      <CircleButton style={{ top: 170, bottom: 'auto', elevation: 4 }} name="edit" />
     </View>
   );
 }
