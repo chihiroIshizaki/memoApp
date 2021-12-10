@@ -1,7 +1,7 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
 import {
-  View, Text, TextInput, StyleSheet,
+  View, Text, TextInput, StyleSheet, TouchableOpacity,
 } from 'react-native';
 
 import AppBar from '../components/AppBar';
@@ -18,7 +18,9 @@ export default function LogInScreen() {
         <Button label="Login!" />
         <View style={styles.footer}>
           <Text style={styles.footerText}>i dont think i know you..</Text>
-          <Text style={styles.footerLink}>sign up here!</Text>
+          <TouchableOpacity>
+            <Text style={styles.footerLink}>sign up here!</Text>
+          </TouchableOpacity>
         </View>
       </View>
     </View>

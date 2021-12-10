@@ -1,6 +1,8 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import {
+  View, Text, StyleSheet, TouchableOpacity,
+} from 'react-native';
 // import { Feather } from '@expo/vector-icons';
 
 import Icon from './Icon';
@@ -13,9 +15,9 @@ export default function Memolist() {
           <Text style={styles.memoListItemTitle}>買い物リスト</Text>
           <Text style={styles.memoListItemDate}>2020年12月03日 10:00</Text>
         </View>
-        <View>
+        <TouchableOpacity>
           <Icon name="delete" size={30} color="#939292" />
-        </View>
+        </TouchableOpacity>
       </View>
 
       <View style={styles.memoListItem}>
@@ -23,10 +25,10 @@ export default function Memolist() {
           <Text style={styles.memoListItemTitle}>買い物リスト</Text>
           <Text style={styles.memoListItemDate}>2020年12月03日 10:00</Text>
         </View>
-        <View>
+        <TouchableOpacity>
           <Icon name="delete" size={30} color="#939292" />
           {/* <Feather name="x" size={20} color="#939292" /> */}
-        </View>
+        </TouchableOpacity>
       </View>
 
       <View style={styles.memoListItem}>
@@ -34,10 +36,10 @@ export default function Memolist() {
           <Text style={styles.memoListItemTitle}>買い物リスト</Text>
           <Text style={styles.memoListItemDate}>2020年12月03日 10:00</Text>
         </View>
-        <View>
+        <TouchableOpacity>
           <Icon name="delete" size={30} color="#939292" />
           {/* <Feather name="x" size={20} color="#939292" /> */}
-        </View>
+        </TouchableOpacity>
       </View>
     </View>
   );
