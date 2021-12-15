@@ -21,6 +21,6 @@ export default function MemoListScreen(props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#EDE8E0',
+    backgroundColor: '#fffafa',
   },
 });

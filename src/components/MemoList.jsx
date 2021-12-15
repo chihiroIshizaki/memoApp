@@ -66,7 +66,7 @@ export default function Memolist() {
       </TouchableOpacity>
     </View>
   );
-  }
+}
 
 const styles = StyleSheet.create({
   memoListItem: {
