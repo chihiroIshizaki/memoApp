@@ -22,13 +22,13 @@ export default function MemoEditScreen(props) {
       ref.set({
         bodyText: body,
         updatedAt: new Date(),
-      })
-      .then(() => {
-        navigation.goBack();
-      })
-      .catch((error) => {
-        Alert.alert(error.code);
-      });
+      }, { merge: true })
+        .then(() => {
+          navigation.goBack();
+        })
+        .catch((error) => {
+          Alert.alert(error.code);
+        });
     }
   }
 

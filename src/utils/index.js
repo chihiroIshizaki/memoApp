@@ -1,8 +1,7 @@
 /* eslint-disable linebreak-style */
 import { format } from 'date-fns';
 
-// eslint-disable-next-line import/prefer-default-export
 export function dateToString(date) {
   if (!date) { return ''; }
-  return format(date, 'yyyy年M月d日 HH:mm');
+  return format(date, 'yyyy/MM/dd  HH:mm');
 }
