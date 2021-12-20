@@ -33,11 +33,11 @@ export default function MemoCreateScreen(props) {
     <KeyboardAvoidingView style={styles.container}>
       <View style={styles.inputContainer}>
         <TextInput
+          autoFocus
           value={bodyText}
           multiline
           style={styles.input}
           onChangeText={(text) => { setBodyText(text); }}
-          autoFocus
         />
       </View>
       <CircleButton
