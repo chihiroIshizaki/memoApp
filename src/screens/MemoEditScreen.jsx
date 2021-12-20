@@ -64,8 +64,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   inputContainer: {
-    paddingVertical: 14,
-    paddingHorizontal: 14,
     flex: 1,
   },
   input: {
@@ -73,5 +71,8 @@ const styles = StyleSheet.create({
     textAlignVertical: 'top',
     fontSize: 14,
     lineHeight: 20,
+    paddingTop: 32,
+    paddingBottom: 32,
+    paddingHorizontal: 27,
   },
 });
